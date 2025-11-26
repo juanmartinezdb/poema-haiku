@@ -26,7 +26,7 @@ def generate_haiku_from_key(image_key):
 
 def upload_image(img):
     try:
-        print("Codificando y subiendo imagen...")
+        print("Codificando y subiendo imagennnnnnnnn...")
         image_bgr = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
         is_success, buffer = cv2.imencode(".jpg", image_bgr)
         if not is_success:
